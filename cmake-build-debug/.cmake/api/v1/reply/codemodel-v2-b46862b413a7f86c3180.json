@@ -7,10 +7,6 @@
 				{
 					"build" : ".",
 					"jsonFile" : "directory-.-Debug-d0094a50bb2071803777.json",
-					"minimumCMakeVersion" : 
-					{
-						"string" : "3.29"
-					},
 					"projectIndex" : 0,
 					"source" : ".",
 					"targetIndexes" : 
@@ -27,7 +23,7 @@
 					[
 						0
 					],
-					"name" : "Caso_Final_Integrador_Tema_3",
+					"name" : "Project",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +34,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "Caso_Final_Integrador_Tema_3::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-Caso_Final_Integrador_Tema_3-Debug-55770b49658c6b9e73a6.json",
-					"name" : "Caso_Final_Integrador_Tema_3",
+					"id" : "new_target::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-new_target-Debug-7ab3db6ef765c580fe55.json",
+					"name" : "new_target",
 					"projectIndex" : 0
 				}
 			]

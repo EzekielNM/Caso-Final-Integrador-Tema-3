@@ -1,32 +1,34 @@
 //
 // Created by Ezekiel on 26/11/2024.
 //
-
+#include "script_loader.h"
 #include <iostream>
-#include "load_script.h"
 
 int main() {
-    std::cout << "=== Carga de scripts en Tiny-Lisp ===\n";
-    std::cout << "1. Cargar un archivo especificando su nombre.\n";
-    std::cout << "2. Introducir el nombre del archivo manualmente.\n";
-    std::cout << "Seleccione una opción: ";
+    try {
+        int option;
+        std::cout << "Seleccione una opción:\n";
+        std::cout << "1. Cargar script con nombre proporcionado\n";
+        std::cout << "2. Solicitar nombre del archivo\n";
+        std::cout << "Opción: ";
+        std::cin >> option;
 
-    int option;
-    std::cin >> option;
-    std::cin.ignore(); // Limpia el buffer de entrada
-
-    switch (option) {
-    case 1: {
-            const char* filename = "script.tiny";
-            load_script(filename, true);
+        switch (option) {
+        case 1: {
+                char filename[500];
+                std::cout << "Ingrese el nombre del archivo: ";
+                std::cin >> filename;
+                load_script(filename, true);
+                break;
+        }
+        case 2:
+            load_script();
             break;
-    }
-    case 2:
-        load_script();
-        break;
-    default:
-        std::cerr << "Opción no válida.\n";
-        break;
+        default:
+            std::cerr << "Opción inválida.\n";
+        }
+    } catch (const std::exception &e) {
+        std::cerr << "Error inesperado: " << e.what() << std::endl;
     }
 
     return 0;

@@ -1,0 +1,4 @@
+# ninja log v6
+3	676	7543200036335339	CMakeFiles/new_target.dir/main.cpp.obj	fae7a66bd65f9935
+15	722	7543200036463239	CMakeFiles/new_target.dir/script_loader.cpp.obj	1d9c234a95468196
+722	940	7543200043515427	new_target.exe	f274a26803d9d49a

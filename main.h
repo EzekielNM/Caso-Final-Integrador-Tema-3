@@ -5,7 +5,12 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-void display_menu(); // Prototipo para mostrar el menú principal.
 
-#endif // MAIN_H
 
+class main {
+
+};
+
+
+
+#endif //MAIN_H
