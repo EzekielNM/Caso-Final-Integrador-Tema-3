@@ -35,25 +35,5 @@ El código tiene un manejo de errores sólido y completo para el caso de que el 
 El código tiene un manejo de errores sólido y completo para el caso de que el archivo proporcionado no se pueda abrir por alguna razón. (15 puntos)
 El código tiene un manejo de errores sólido y completo para el caso de que se produzca un error de lectura durante la lectura del archivo. (20 puntos)
 Total: 100 puntos
-# Proyecto: Carga de Scripts en Tiny-Lisp
 
-## Descripción
-Este proyecto implementa una solución para cargar scripts en la memoria y aplicarles coloración sintáctica. Permite abrir y leer archivos de texto con un manejo robusto de errores.
-
-## Funcionalidades
-- `load_script(const char* filename, bool show_script = false)`: Carga el contenido de un archivo y muestra su contenido si el usuario lo solicita.
-- `load_script()`: Solicita al usuario el nombre de un archivo y lo carga.
-- Manejo de errores para:
-  - Archivos inexistentes.
-  - Problemas al abrir el archivo.
-  - Errores de lectura.
-
-## Instrucciones
-1. Compila el programa usando CLion o un compilador de C++ compatible.
-2. Ejecuta el programa y selecciona entre las opciones:
-   - Proporcionar directamente el nombre del archivo.
-   - Introducir el nombre manualmente.
-
-## Valoración
-El código cumple con los requisitos planteados y ofrece un manejo robusto de errores. Se ha priorizado la claridad, la modularidad y el cumplimiento de las mejores prácticas.
 
